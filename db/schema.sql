@@ -5,3 +5,13 @@ CREATE TABLE department(
  id INTEGER NOT NULL AUTO_INCREMENT,
  name: VARCHAR(30) NOT NULL,
 PRIMARY KEY (id));
+
+
+CREATE TABLE role (
+id INT NOT NULL AUTO_INCREMENT,
+name: VARCHAR(30) NOT NULL, 
+salary DECIMAL(10,3)
+department_id INT NULL,
+);
+
+
